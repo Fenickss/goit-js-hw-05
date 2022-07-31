@@ -25,11 +25,23 @@
 
 
 
+ /* const userData = {
+  getInfo()
+ } */
+
+const Account = function(value) {
+   this.login = '';
+   this.email = ''; 
+   console.log(value);
+};
 
 
-const Account = function() {
-    getInfo();
-}
+Account.prototype.getInfo = function() {};
+
+
+
+
+
 
 console.log(Account.prototype.getInfo); // function
 

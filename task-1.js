@@ -29,10 +29,10 @@
   getInfo()
  } */
 
-const Account = function(value) {
+const Account = function({login, email} = {}) {
    this.login = '';
    this.email = ''; 
-   console.log(value);
+   console.log(login, email);
 };
 
 
